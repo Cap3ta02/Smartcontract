@@ -1,2 +1,0 @@
-# Smartcontract
-prove smart contract
