@@ -20,6 +20,7 @@ contract primocontratto{
         
     }
 } 
+//___________________________________________________________
     struct pagamento {
         string proprietario;
         string Data_pagamento;
@@ -32,4 +33,16 @@ contract primocontratto{
         variabile [_index] = pagamento (_nome, _data, _totale);
     }
 }   
-    
+
+//___________________________________________________________
+
+    function nomeFunzione (uint _numero) public pure
+    returns( bool) {
+        if ( _numero > 10){
+            return true;
+        }
+        else{
+            returne false;
+        }
+        }
+    }
