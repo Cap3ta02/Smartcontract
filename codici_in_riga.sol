@@ -55,3 +55,15 @@ mapping (uint => string) public persona; /* andiamo a definire che attraverso un
         persona[1] = "Persona Due"
     }
 }
+ //_______________________________Ciclo for
+
+ uint [] public numeri = [1,2,3,4,5]
+ function contaArray () public view returns (uint)n {
+     
+    uint conto;
+
+    for( uint i=0; i<numeri.lenght; i++) {
+        conto ++;
+    }
+    return conto;
+ }
