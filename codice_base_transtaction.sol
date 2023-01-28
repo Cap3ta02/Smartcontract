@@ -5,11 +5,11 @@ contract transizione{
 
     address indirizzo;
 
-    function setIndirizzo() public payable{
+    function setIndirizzo() public payable{ //settare l'indirizzo portafoglio con chi si intende fare la transazione
         indirizzo = msg.sender;
     }
 
-    function getIndirizzo () public view returns (address) {
+    function getIndirizzo () public view returns (address) { //ti permette di controllare tramite il bottone "getIndirizzo" l'indirizzo, per non commettere errori
         return indirizzo;
 
     }
